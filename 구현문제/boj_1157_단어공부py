@@ -1,0 +1,33 @@
+# arr = input().upper()
+
+# cnt = []
+# cntSet = list(set(arr))
+# for s in cntSet:
+#     tempCnt = arr.count(s)
+#     cnt.append(tempCnt)
+
+# if cnt.count(max(cnt))>1:
+#     print ( '?')
+# else:
+#     maxIndex=cnt.index(max(cnt))
+#     print(cntSet[maxIndex])
+
+
+# #sol1
+# cnt = [] 
+# for i in range(10):
+#     tmp = int(input())
+#     cnt.append(tmp%42)
+
+# cntSet =list(set(cnt))
+# print(len(cntSet))
+
+# #sol2
+# b = [int(input())%42 for i in range(10)]
+# print(len(set(b)))
+
+# # 파이썬은 [::-1]로 뒤집기 가능
+# a,b =input().split()
+# numa = int(a[::-1])
+# numb = int(b[::-1])
+# print(max(numa,numb))
