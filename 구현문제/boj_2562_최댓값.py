@@ -78,3 +78,34 @@
 # s = input()
 # for i in range (97,123):
 #     print(s.find(chr(i)),end=" ")
+
+# n = int(input())
+# arr=list(range(1,n+1))
+
+# while len(arr)>1:
+#     arr = arr[1::2]
+
+# print(arr[0])
+
+
+# x= int(input())
+# y = int(input())
+# if 0<x:
+#     if y<0: print(4)
+#     else: print(1)
+# else :
+#     if y<0: print(3)
+#     else: print(2)
+
+
+x,y,z = map(int,input().split())
+if x==y==z:
+    print(10000+x*1000)
+elif x==y:
+    print(1000+x*100)
+elif x==z:
+    print(1000+x*100)
+elif z==y:
+    print(1000+y*100)
+else :
+    print(max(x,max(y,x)*100))
