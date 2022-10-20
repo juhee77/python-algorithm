@@ -21,5 +21,5 @@ while 0<idx:
         maxSum -= 1
     idx -= 1
 
-print(str(maxSum)+"\n"+sb)
+print(str(max(sum))+"\n"+sb)
     
